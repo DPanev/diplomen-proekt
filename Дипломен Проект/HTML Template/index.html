@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-6</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+     
+    
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- start #header -->
+        <header id="header">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <p class="font-rale font-size-12 text-black-50 m-0">
+                <div class="font-rale font-size-14">
+                    <a href="http://localhost/project/register.php" class="px-3 border-right border-left text-dark">Профил</a>
+                </div>
+            </div>
+
+            <!-- Primary Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <a class="navbar-brand" href="index.html">Mobile-6</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik">
+                    
+                    <div class="topnav">
+                      <a href="index.html">Начало</a>
+                      <a href="#about">Промоции</a>
+                      <a href="Contacts.html">Контакти</a>
+                      <input type="text" placeholder="Търсене..">
+                    </div>
+
+            
+                <span class="font-size-16 px-2 text-white"></span>
+                <div class="row">
+                    <div class="col">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart"> <i class="fas fa-shopping-cart"></i>  (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Изчисти</button></div>
+                </div>
+            </nav>
+          </div>
+        
+         
+            
+            
+        </header>
+    <!-- start #main-site -->
+        <main id="main-site">
+          <!-- !Owl-carousel -->
+          
+       
+          <!-- Top Sale -->
+          <section id="top-sale">
+            
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" ></div>
+              <h4 class="font-rubik font-size-20">Най-продавани</h4>
+              <hr>
+              
+              <!-- owl carousel -->
+              <div class="owl-carousel owl-theme">
+
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="Apple iPhone 12 Pro.html"><img src="../assets/products/iphone11.jpg" alt="Card image cap" class="img-fluid"></a>
+                    <div class="text-center">
+                     <p> <h6>Apple iPhone 13 Pro </h6></p>
+                      
+                      <div class="price py-2">
+                        <span>2150лв</span>
+                      </div>
+                    <p>  <a href="#"data-name="Apple iPhone 13 Pro" data-price="2150" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a> </p>                         
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/11 Lite NE blk-1000x1000_1.jpg" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                     <p> <h6>Xiaomi 11 Lite 5G NE</h6> </p>
+                     
+                      <div class="price py-2">
+                        <span>589лв</span>
+                      </div>
+                    <p>  <a href="#"data-name="Xiaomi 11 Lite 5G NE" data-price="589" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                           
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/13.png" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                     <h6>Apple iPhone X </h6>      
+                     
+                      <div class="price py-2">
+                        <span>750лв</span>
+                      </div>
+                    <p>  <a href="#"data-name="Apple iPhone X " data-price="750" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                              
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/galaxy-a52-black.jpeg" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                     <p>
+                       <h6>Samsung Galaxy a52</h6>
+                      </p> 
+                     
+                      <div class="price py-2">
+                        <span>720лв</span>
+                      </div>
+                      <a href="#"data-name="Samsung Galaxy a52" data-price="720" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                          
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/iphone-12-mini-red-select-2020-1_1.jpg" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                      <h6>Apple iPhone 12 mini </h6>
+                     
+                      <div class="price py-2">
+                        <span>1112лв</span>
+                      </div>
+                      <a href="#"data-name="Apple iPhone 12 mini" data-price="1112" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                          
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <div class="d-flex flex-column">
+                      <a href="#"><img src="../assets/products/iphone-12-pro-gold-hero_0.png" class="img-fluid" alt="pro1"></a>
+                      <div class="text-center">
+                     <p></p> <h6>Apple iPhone 12 pro </h6></p>
+                      
+                        <div class="price py-2">
+                          <span>2015лв</span>
+                        </div>
+                      <p> <a href="#"data-name="Apple iPhone 12 pro" data-price="2015" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>              
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <div class="d-flex flex-column">
+                      <a href="#"><img src="../assets/products/s21-violet.jpeg" class="img-fluid" alt="pro1"></a>
+                      <div class="text-center">
+                       <p> <h6>Samsung Galaxy S21 Ultra</h6> </p>
+                      
+                        <div class="price py-2">
+                          <span>1987лв </span>
+                        </div>
+                       <p> <a href="#"data-name="Samsung Galaxy S21 Ultra" data-price="1987" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- !Top Sale -->
+
+        <!-- Special Price -->
+          <section id="special-price">
+            <div class="container">
+              <h4 class="font-rubik font-size-20"> Всички </h4>
+              <div id="filters" class="button-group text-right font-baloo font-size-16">
+                <button class="btn is-checked" data-filter="*">Всички марки</button>
+                <button class="btn" data-filter=".Apple">Apple</button>
+                <button class="btn" data-filter=".Samsung">Samsung</button>
+                <button class="btn" data-filter=".Redmi">Redmi</button>
+              </div>
+
+              <div class="grid">
+                <div class="grid-item Apple border">
+                 <div class="item py-2" style="width: 200px;">
+                  <div class="product font-rale">
+                    <a href="iphone X.html"><img src="../assets/products/13.png" alt="product1" class="img-fluid"></a>
+                    <div class="text-center">
+                      <h6>Apple iPhone X</h6>
+                     
+                       
+                      <div class="price py-2">
+                        <span>750лв</span>
+                      </div>
+                      <a href="#"data-name="Apple iPhone X" data-price="750" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                    
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/galaxy-a52-black.jpeg" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                      <p> <h6>Samsung Galaxy a52</h6> </p>     
+                       
+                       <div class="price py-2">
+                         <span>720лв</span>
+                       </div>
+                       <a href="#"data-name="Samsung Galaxy a52" data-price="720" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                     
+                      </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Redmi border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/redmi note 10.webp" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Redmi Note 10</h6>
+                      
+                       <div class="price py-2">
+                         <span>380лв</span>
+                       </div>
+                       <a href="#"data-name="Redmi Note 10" data-price="380" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                     
+                      </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Apple border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/Apple iPhone SE 2.webp" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Apple iPhone SE 2</h6>
+
+                       <div class="price py-2">
+                         <span>455лв</span>
+                       </div>
+                       <a href="#"data-name="Apple iPhone SE 2" data-price="455" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                     
+                      </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Samsung border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/Samsung Galaxy Z Flip3.webp" alt="product1" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Samsung Galaxy Z Flip3</h6>
+                       
+                       <div class="price py-2">
+                         <span>1890лв</span>
+                       </div>
+                       <a href="#"data-name="Samsung Galaxy Z Flip3" data-price="1890" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                     
+                      </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/Xiaomi Redmi 9A.webp" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Xiaomi Redmi 9A</h6>
+                         
+                          <div class="price py-2">
+                            <span>198лв</span>
+                          </div>
+                          <a href="#"data-name="Xiaomi Redmi 9A" data-price="198" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/Xiaomi Redmi Note 10S.webp" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Xiaomi Redmi Note 10S</h6>
+                         
+                          <div class="price py-2">
+                            <span>440лв</span>
+                          </div>
+                          <a href="#"data-name="Xiaomi Redmi Note 10S" data-price="440" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/Xiaomi 11T Pro.webp" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Xiaomi 11T Pro</h6>
+                         
+                          <div class="price py-2">
+                            <span>1100лв</span>
+                          </div>
+                          <a href="#"data-name="Xiaomi 11T Pro" data-price="1100" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                       
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Redmi border">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/Xiaomi Mi 11 Lite.webp" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Xiaomi Mi 11 Lite</h6>
+                        
+                          <div class="price py-2">
+                            <span>605лв</span>
+                          </div>
+                          <a href="#"data-name="Xiaomi Mi 11 Lite" data-price="605" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item Apple border  " >
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/iphone-12-pro-gold-hero_0.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                         <p> <h6>Apple iPhone 12 pro</h6></p>     
+                          <div class="price py-2">
+                            <span>2015лв</span>
+                          </div>
+                      <a href="#"data-name="Apple iPhone 12 pro" data-price="2015" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>   
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- !Special Price -->
+
+          <!-- New Phones -->
+          <section id="new-phones">
+            <div class="container">
+              <h4 class="font-rubik font-size-20">Нови телефони</h4>
+              <hr>
+
+                    <!-- owl carousel -->
+                    <div class="owl-carousel owl-theme">
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <a href="Apple iPhone 12 Pro.html"><img src="../assets/products/iphone11.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                           <p> <h6>Apple iPhone 13 Pro </h6></p>
+                            
+                            <div class="price py-2">
+                              <span>2150лв</span>
+                            </div>
+                          <p>  <a href="#"data-name="Apple iPhone 13 Pro" data-price="2150" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a> </p>                         
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/11 Lite NE blk-1000x1000_1.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                           <p> <h6>Xiaomi 11 Lite 5G NE</h6> </p>
+                           
+                            <div class="price py-2">
+                              <span>589лв</span>
+                            </div>
+                          <p>  <a href="#"data-name="Xiaomi 11 Lite 5G NE" data-price="589" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/13.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                           <h6>Apple iPhone X </h6>      
+                           
+                            <div class="price py-2">
+                              <span>750лв</span>
+                            </div>
+                          <p>  <a href="#"data-name="Apple iPhone X " data-price="750" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                              
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/galaxy-a52-black.jpeg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                           <p>
+                             <h6>Samsung Galaxy a52</h6>
+                            </p> 
+                           
+                            <div class="price py-2">
+                              <span>720</span>
+                            </div>
+                            <a href="#"data-name="Samsung Galaxy a52" data-price="720" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/iphone-12-mini-red-select-2020-1_1.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Apple iPhone 12 mini </h6>
+                           
+                            <div class="price py-2">
+                              <span>1112лв</span>
+                            </div>
+                            <a href="#"data-name="Apple iPhone 12 mini" data-price="1112" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>                          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="../assets/products/iphone-12-pro-gold-hero_0.png" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                           <p></p> <h6>Apple iPhone 12 pro </h6></p>
+                            
+                              <div class="price py-2">
+                                <span>2015лв</span>
+                              </div>
+                            <p> <a href="#"data-name="Apple iPhone 12 pro" data-price="2015" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="../assets/products/s21-violet.jpeg" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                             <p> <h6>Samsung Galaxy S21 Ultra</h6> </p>
+                            
+                              <div class="price py-2">
+                                <span>1987лв </span>
+                              </div>
+                             <p> <a href="#"data-name="Samsung Galaxy S21 Ultra" data-price="1987" class="add-to-cart btn btn-primary ">ПОРЪЧАЙ</a>  </p>                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- !owl carousel -->
+
+            </div>
+          </section>
+          <!-- !New Phones -->
+
+          <!-- Blogs -->
+            <section id="blogs">
+              <div class="container py-4">
+                <h4 class="font-rubik font-size-20">Информация</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">За нас </h5>
+                      <img src="../assets/blog/LogoSample_ByTailorBrands.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">Най-ниските цени на смартфони и мобилни телефони - 100 % оригинални. Ниските цени се комбинират с гарантирано качество, на GSM апаратите..</p>
+        
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Доставки</h5>
+                      <img src="../assets/blog/изтеглен файл.png " alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1"> Между 3 и 5 работни дни. Зависи от трафика.</p>
+                    
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-8" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Плащане</h5>
+                      <img src="../assets/blog/Visa-или.-MasterCard-852x450.png" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">Плащанията се осъществяват чрез всички карти на Виза или МастерКард.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          <!-- !Blogs -->
+         
+    <!-- !start #main-site -->
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Mobile-6</h4>
+                <p class="font-size-14 font-rale text-white-50"> </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.4328398431253!2d24.72751431544935!3d42.14102357920225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd1cc3a847e3d%3A0xd2e94589d06dd729!2z0J_QkyDQv9C-INC10LvQtdC60YLRgNC-0YLQtdGF0L3QuNC60LAg0Lgg0LXQu9C10LrRgtGA0L7QvdC40LrQsA!5e0!3m2!1sbg!2sbg!4v1643988988891!5m2!1sbg!2sbg" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="col-lg-4 col-12">
+               
+
+
+
+
+
+
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Информация</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">За Нас</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Доставки</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Поверителност</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20"></h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a  class="font-rale font-size-14 text-white-50 pb-1">гр.Пловдив България , бул. „Пещерско шосе“ 26, 4002 ж.к. Младежки хълм
+                    <p>Телефон : 089 994 6940 </p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Mobile-6 2022. Desing By <a href="https://www.facebook.com/mitko.panev.1" class="color-second">Димитър Панев</a></p>
+        </div>
+
+        <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <table class="show-cart table">
+                  
+                </table>
+                <div>Total price: $<span class="total-cart"></span></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 <script
+                  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  data-key="pk_test_GFTyo5v7WVZXXv5rBMiByuee"
+                  data-amount= "666"
+                  data-name="YourCompany Test"
+                  data-description="Example charge"
+                  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                  data-locale="auto">
+                </script></button></button>
+              </div>
+            </div>
+          </div>
+        </div> 
+       
+      
+
+
+
+        
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+    
+</body>
+</html>
